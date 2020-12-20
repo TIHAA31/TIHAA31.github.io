@@ -1,0 +1,139 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Primary School</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: Orchid;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: purple;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<body>
+<div class="topnav">
+<ul>
+<a href="index.html">Home Page</a>
+<a href="biodata.html">Biodata</a>
+<a href="experience.html">Experience</a>
+<a href="#">Education</a>			
+<a href="family.html">Family</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</ul>
+</div>
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="education.html">Education</a>
+<a href="#">Primary School</a>
+<a href="secondaryschool.html">Secondary School</a>
+<a href="university.html">University</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<section>
+<article class="primaryschool">
+<h2>My Primary School</h2>
+<p><u>SK Syeikh Mohd Idris Al - Marbawi.</u></p>
+<a target="_blank" href="image/sksmia.jpg">
+<img src="img/sksmia.jpg" alt="SKSMIA" style="width:200px">
+</a>
+<br>
+<br>
+<class="table">
+<h2 align="center">SKSMIA</h2>
+<table border="1" width="50%" height="50%" valign="middle" align="center">
+<tr align="center">
+<td colspan="8">
+<img src="img/sksmilogo.jpg">
+</td>
+</tr>
+<tr align="center" bgcolor=Tan>
+<th rowspan="3"> SK Syeikh Mohd Idris Al- Marbawi</th>
+<th>Year</th>
+<th>Description</th>
+</tr>
+<td>2005-2006</td>
+<td><ul>
+  <li>I took my preschool in the SK Syeikh Mohd Idris Al-Marbawi</li>
+  <li> This Preschool building of SK Syeikh Mohd Idris Al-Marbawi is a building with their primary school </li>
+  <li>The teachers are very sporting and has teach me everything while i am still kids</li>
+</ul></td>
+</tr>
+<tr align="left">
+<td>2007-2012</td>
+<td><ul>
+  <li>SK Syeikh Mohd Idris Al-Marbawi is located at Lubuk Merbau, Kuala Kangsar, Perak which is near to my house.</li>
+  <li>I took my UPSR in the SK Syeikh Mohd Idris Al-Marbawi and got 5A's UPSR</li>
+  <li>At this school, I hold the position of chief supervisor of the resource center</li>
+</ul></td>
+</tr>
+</table>
+</article>
+</section>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+<br>
+<br>
+<div class="trademarkcontact">
+<a>&copy; Nurul Fatiha <sup>2020</sup></p>
+</div>
+</html>
+
+
+	

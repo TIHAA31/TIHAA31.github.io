@@ -1,0 +1,182 @@
+body {
+  background-image: url('img/flowerbackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.topnav {
+  background-color: Darksalmon;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: pink;
+  color: red;
+}
+.topnav a.active {
+  background-color: yellow;
+  color: white;
+}
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width : auto;
+}
+h1, h2, h3 {
+  text-align: center;
+  font-family: Verdana;
+  font size: 60;
+}
+p {
+	text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px;
+}
+.trademarkcontact{
+	text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 40%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: pink;
+  padding: 20px;
+}
+
+.bio{ border-style: solid khaki;
+  float: right;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
+  background-color:burlyWood;
+  height:250%; /* only for demonstration, should be removed */
+}
+.song{ border-style: solid khaki;
+  float: left;
+  padding: 50px;
+  margin: 50px;
+  width: 40%;
+  background-color:NavajoWhite;
+  height:140%; /* only for demonstration, should be removed */
+}
+.movies{ border-style: solid khaki;
+  float: left;
+  padding: 50px;
+  margin: 50px;
+  width: 40%;
+  background-color:LightSalmon;
+  height:110% /* only for demonstration, should be removed */
+}
+.family{ border-style: solid khaki;
+  float: center;
+  padding: 50px;
+  margin: 50px;
+  width: 90%;
+  background-color:Khaki;
+  height:210%; /* only for demonstration, should be removed */
+}
+.beautifulfamily{ border-style: solid khaki;
+  float: center;
+  padding: 50px;
+  margin: 50px;
+  width: 90%;
+  background-color:LightSteelBlue;
+  height:710%; /* only for demonstration, should be removed */
+}
+.website{ border-style: solid khaki;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  padding: 50px;
+  width: 80%;
+  background-color:AntiqueWhite;
+  height:30%; /* only for demonstration, should be removed */
+}
+.education{ border-style: solid khaki;
+  font-family: Helvetica, sans-serif;
+  float: center;
+  padding: 50px;
+  margin: 50px;
+  width: 90%;
+  background-color:DarkGray;
+  height:30%; /* only for demonstration, should be removed */
+}
+.clock{ border-style: solid khaki;
+  float: left;
+  padding: 50px;
+  margin: 50px;
+  width: 40%;
+  background-color:LemonChiffon;
+  height:70%; /* only for demonstration, should be removed */
+}
+.welcome{ border-style: solid khaki;
+  float: right;
+  padding: 50px;
+  margin: 50px;
+  width: 40%;
+  background-color:Silver;
+  height:120%; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.inquiries{
+  text-align:center;
+}
+div .inquiries
+{
+    display: block;
+    text-align: center;
+}
+.inquries table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%; 
+    height: 50px; 
+}
+* {
+  box-sizing: border-box;
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
